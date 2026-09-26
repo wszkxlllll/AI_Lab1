@@ -1,0 +1,18 @@
+{
+  "criterion": "macro_f1 after excluding train-content overlaps, then accuracy, then shorter classifier fit time on seed 66",
+  "selected_run_id": "84ea36311672265e",
+  "selected_spec": {
+    "model": "MLP",
+    "params": {
+      "hidden": [
+        64
+      ],
+      "alpha": 0.0001
+    },
+    "representation": "tfidf",
+    "view": "separate",
+    "title_weight": 0.5
+  },
+  "structure_anchor_run_id": "50a08ebedc12a7f7",
+  "note": "Repeated splits measure sensitivity; they are not an independent test estimate."
+}

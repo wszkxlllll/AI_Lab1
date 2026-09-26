@@ -1,0 +1,47 @@
+[
+  {
+    "model": "NB",
+    "representation": "bow",
+    "parameter": "alpha",
+    "original_best": 0.1,
+    "candidate": 0.01,
+    "original_macro_f1": 0.9275362176699818,
+    "extra_run_id": "34a3a39d4c27f89c"
+  },
+  {
+    "model": "SVM",
+    "representation": "bow",
+    "parameter": "C",
+    "original_best": 10.0,
+    "candidate": 100.0,
+    "original_macro_f1": 0.9001471196391753,
+    "extra_run_id": "ef55140c861a598e"
+  },
+  {
+    "model": "LR",
+    "representation": "bow",
+    "parameter": "C",
+    "original_best": 100.0,
+    "candidate": 1000.0,
+    "original_macro_f1": 0.9145836640414521,
+    "extra_run_id": "a4d75129dcc74622"
+  },
+  {
+    "model": "NB",
+    "representation": "tfidf",
+    "parameter": "alpha",
+    "original_best": 0.1,
+    "candidate": 0.01,
+    "original_macro_f1": 0.9350811090901644,
+    "extra_run_id": "6b8c4fc4fa24200c"
+  },
+  {
+    "model": "LR",
+    "representation": "tfidf",
+    "parameter": "C",
+    "original_best": 100.0,
+    "candidate": 1000.0,
+    "original_macro_f1": 0.9347893426840452,
+    "extra_run_id": "97dfe79399f8e837"
+  }
+]

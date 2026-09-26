@@ -1,0 +1,17 @@
+{
+  "seed": 66,
+  "validation_fraction": 0.2,
+  "repeat_seeds": [88],
+  "max_features": 15000,
+  "title_max_features": 2500,
+  "min_df": 2,
+  "max_df": 0.98,
+  "threads": 2,
+  "word2vec": {"vector_size": 200, "window": 5, "min_count": 2, "epochs": 20},
+  "grids": {
+    "NB": [{"alpha": 0.1}, {"alpha": 1.0}, {"alpha": 10.0}],
+    "SVM": [{"C": 0.1}, {"C": 1.0}, {"C": 10.0}],
+    "LR": [{"C": 1.0}, {"C": 10.0}, {"C": 100.0}],
+    "MLP": [{"hidden": [64], "alpha": 0.0001}, {"hidden": [64], "alpha": 0.01}, {"hidden": [64], "alpha": 1.0}]
+  }
+}

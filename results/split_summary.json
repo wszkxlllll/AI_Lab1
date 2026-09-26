@@ -1,0 +1,14 @@
+{
+  "seed_66": {
+    "train_rows": 5894,
+    "validation_rows": 1474,
+    "excluded_validation_rows": [2009, 6225],
+    "evaluated_validation_rows": 1472
+  },
+  "seed_88": {
+    "train_rows": 5894,
+    "validation_rows": 1474,
+    "excluded_validation_rows": [6225],
+    "evaluated_validation_rows": 1473
+  }
+}

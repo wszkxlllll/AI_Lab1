@@ -1,0 +1,31 @@
+{
+  "selected_spec": {
+    "model": "MLP",
+    "params": {
+      "hidden": [
+        64
+      ],
+      "alpha": 0.0001
+    },
+    "representation": "tfidf",
+    "view": "separate",
+    "title_weight": 0.5
+  },
+  "fit_seconds": 110.09580600005575,
+  "train_rows": 7368,
+  "test_rows": 2457,
+  "test_sha256": "4882c04b008c055f351f1c9b25c45d601a454077af37e79375601f2465b41615",
+  "prediction_sha256": "216a0a2ca70c2264d44e284ba95b3771aa69bd4e60e5ed2b4b3ad07cd137f62f",
+  "label_counts": {
+    "0": 258,
+    "1": 240,
+    "2": 240,
+    "3": 241,
+    "4": 249,
+    "5": 251,
+    "6": 249,
+    "7": 250,
+    "8": 244,
+    "9": 235
+  }
+}
