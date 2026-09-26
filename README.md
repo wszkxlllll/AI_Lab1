@@ -59,7 +59,7 @@ BoW 和 TF-IDF 共用一元词表设置：`max_features=15000`、`min_df=2`、`m
 
 ## 编译报告
 
-先在 `report/metadata.tex` 填写真实 GitHub 链接和姓名学号，然后进入报告目录运行两次 XeLaTeX：
+进入报告目录运行两次 XeLaTeX：
 
 ```bash
 cd report
